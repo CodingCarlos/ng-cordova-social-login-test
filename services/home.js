@@ -26,7 +26,7 @@
 
 		function login() {
 			console.log('login');
-			$cordovaOauth.twitter(string consumerKey, string consumerSecretKey)
+			$cordovaOauth.twitter('ImgnjIwFsLNu2h5m7RFqZKzCU', 'TK4Nqrepqpmyt3k1yvqT2pwZyPhB9Oj0X330bUlvxttCHGquDx')
 				.then(function(result) {
 					console.log('Logged in via oAuth!!!');
 					console.log(result)
