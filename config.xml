@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.codingcarlos.sologin" version="0.5.1a" versionCode="2993"  xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>SoLogIn</name>
+    <description>
+        Just a social login test with oauth, angular and cordova.
+    </description>
+    <author email="carlos@gamify.es" href="http://www.twitter.com/CodingCarlos">
+        CodingCarlos
+    </author>
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <preference name="android-minSdkVersion" value="19" />
+
+    <!-- SplashScreen -->
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="autoHideSplashScreen" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <!-- end SplashScreen -->
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="android-build-tool" value="gradle" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <!-- <gap:plugin name="org.apache.cordova.media-capture" /> -->
+    <!-- <gap:plugin name="org.apache.cordova.file" /> -->
+    <!-- <gap:plugin name="org.apache.cordova.file-transfer" /> -->
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <preference name="StatusBarBackgroundColor" value="#f57C00" />
+    <icon src="apple-touch-icon.png" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <!-- <plugin name="phonegap-plugin-push" spec="~1.4.5">
+        <variable name="SENDER_ID" value="214060846526" />
+    </plugin> -->
+    <!-- The creator does not upgrade from 0.1.4 to 0.1.9 in build, so I can't no use this plugin. I'll fix this in the future... -->
+    <!-- <plugin name="uk.co.whiteoctober.cordova.appversion" spec="0.1.9" source="pgb" /> -->
+    <!-- <plugin name="uk.co.whiteoctober.cordova.appversion" spec="0.1.4" source="pgb" /> -->
+    <!-- <plugin name="cordova-plugin-x-socialsharing" spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" /> -->
+    <!-- Analytics -->
+    <!-- <plugin name="com.danielcwilson.plugins.googleanalytics" spec="0.6.1" source="pgb" /> -->
+    <!-- Mixpanel -->
+    <!-- <plugin name="cordova-plugin-mixpanel" spec="~2.1.0" source="npm" /> -->
+</widget>
