@@ -55,8 +55,9 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <!-- <plugin name="org.apache.cordova.inappbrowser" spec="0.5.2" source="pgb" /> -->
-    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" /> 
+    <!-- La siguiente linea activa otra versión que en vez de tener window.cordova.inAppBrowser.open() tiene window.open() -->
+    <!-- <gap:plugin name="org.apache.cordova.core.inappbrowser" /> -->
     <!-- <plugin name="se.laget.cordova.plugins.iab" spec="0.1.0" source="pgb" /> -->
 
     <!-- <plugin name="phonegap-plugin-push" spec="~1.4.5">
